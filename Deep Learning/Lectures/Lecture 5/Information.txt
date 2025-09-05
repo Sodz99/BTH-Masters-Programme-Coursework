@@ -1,0 +1,9 @@
+Annotating Images
+https://www.makesense.ai/
+
+YOLOv5
+https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb#scrollTo=1NcFxRcFdJ_O
+
+
+
+

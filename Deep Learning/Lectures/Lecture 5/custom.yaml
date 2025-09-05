@@ -1,0 +1,8 @@
+# Custom YOLO dataset config
+path: /content/YOLO_Dataset  # root directory of your dataset
+train: images/train          # relative to 'path'
+val: images/val              # relative to 'path'
+
+# Classes
+names:
+  0: Chicken
