@@ -113,3 +113,12 @@ Status code patterns:
 - Standard UNIX tools (awk, sort, uniq, head)
 - Read access to log files
 - Execute permission on the script
+
+
+  ## 👤 Author
+
+**Sohan Arun**  
+Master’s Student, Computer Science  
+Blekinge Institute of Technology, Sweden  
+📧 [Sohanoffice46@gmail.com](mailto:Sohanoffice46@gmail.com)
+
