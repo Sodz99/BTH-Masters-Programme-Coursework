@@ -1,0 +1,12 @@
+SpaceMarine Ultramarine Moderate
+SpaceMarine DarkCrusaders Moderate
+SpaceMarine Salamanders Moderate
+SpaceMarine Spacewolves Moderate
+Imperium AstraMilitaris Expensive
+Imperium Inquisitors Cheap
+Imperium AdeptasSororitas Moderate
+Imperium AdeptusMechanicus Expensive
+Xenos Eldar Moderate
+Xenos Orks Expensive
+Xenos Tyranids Expensive
+Xenos Necrons Moderate
