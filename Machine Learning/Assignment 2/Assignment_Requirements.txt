@@ -1,0 +1,41 @@
+The aim of Assignment 2 is to experimentally compare the computational and predictive performance of three learning algorithms on a spam detection task.
+
+    Group assignment: Max 2 students
+
+    Prerequisite reading: sections 12.1 - 12.3 in the literature (Machine learning: the art and science of algorithms that make sense of data / Peter Flach.)
+    Language: Python (Already implemented supervised learning algorithms and standard libraries can be used. However, It is NOT permitted to use any library or API that directly computes the Friedman and Nemenyi tests.)
+
+    Data: The Spambase dataset, https://archive.ics.uci.edu/ml/datasets/Spambase 
+
+Links to an external site.
+Algorithms: three supervised classification learning algorithms of your choice.
+Evaluation measures: perform a comparison between the selected algorithms based on 1) computational performance in terms of training time, 2) predictive performance based on accuracy, and 3) predictive performance based on F-measure.
+Procedure (repeat steps 2, 3, and 4 for each evaluation measure above)
+
+    Run stratified ten-fold cross-validation tests.
+    Present the results exactly as in the table in example 12.4 of the main literature.
+    Conduct the Friedman test and report the results exactly as in the table in example 12.8 of the main literature.
+    Determine whether the average ranks as a whole display significant differences on the 0.05 alpha level and, if so, use the Nemenyi test to calculate the critical difference in order to determine which algorithms perform significantly different from each other.
+
+Written report
+
+    Template: The IEEE conference template and citation style should be followed (templates 
+
+    Links to an external site. in MS Word and LaTeX)
+    Language:  English without spelling mistakes
+    Style: Clear
+    Content: The report should give an overview of the conducted experiments and the obtained results. It should contain (but not be limited to) information about the used classifiers, a brief description of the Friedman and Nemenyi tests along with the formulas, results of the experiment as stated above, results of the comparison stating whether the algorithms perform significantly different or not from each other for each performance measure.
+    Format: PDF
+    Page limit: 2 pages excluding references (no abstract should be included)
+
+Code
+
+    Provide meaningful comments for different blocks of the code.
+    A README.TXT file must clearly state exactly how to execute the code and any necessary setups.
+
+Submission
+
+    Make sure to include your names in the report and the code.
+    The report must be submitted as a PDF separately (not to be included in the ZIP file).
+    Code and additional files related to implementation must be archived using ZIP.
+

@@ -1,0 +1,50 @@
+The aim of Assignment 1 is to train and test two classifiers of your choice for identifying wine quality and picking the best-performing one.
+
+    Group assignment: Max 2 students
+    Prerequisite reading: ML in Python Lab material, Lecture 2: ML foundations, and Imbalanced Data 
+
+Links to an external site.
+Language: Python (you are allowed to use Python libraries such as Pandas, NumPy, scikit-learn, imbalanced-learn, etc. )
+Data: The Wine Quality dataset is available at https://archive.ics.uci.edu/dataset/186/wine+quality
+Links to an external site.
+
+    The dataset contains two CSV files, one for white wine and one for red wine. You decide which one to study.
+
+Steps: 
+
+    Inspect the dataset, e.g., check the ratio of the classes and discuss your findings.
+    Divide the data into train and test sets.
+    Perform scaling on the data.
+    For each classifier, perform validation using Repeated k-Fold Cross-Validation (n_splits = 3, n_repeats = 10) on the train set.
+        Choose the best metric, such as  Accuracy, Precision, Recall, etc., which can explain the task of  wine quality classification adequately.
+        Evaluate the performance of the two classifiers based on the average and standard deviation of the chosen metric.
+        Identify the best classifier based on its performance.
+    Use the whole training set to build the final model using the best-performed classifier from the previous step. 
+    Report the model's performance on the test set.
+     Consider using the imbalanced-learn library or similar libraries to balance the scaled train set. Check the ratio of the classes and discuss your findings.
+    Perform steps 4 to 5 using the balanced train set.
+    Report the model's performance on the test set.
+    Discuss your findings.
+
+Written report
+
+    Template: The IEEE conference template and citation style should be followed (templates 
+
+    Links to an external site. in MS Word and LaTeX).
+    Language:  English without spelling mistakes.
+    Style: Clear.
+    Content: The report should explain the problem you have solved, the data and the performed data preprocessing, the used algorithms and motivation behind their selection, the training and testing process, model evaluation results, etc. 
+    Format: PDF.
+    Page limit: 1 page excluding references (no abstract should be included).
+
+Code
+
+    Provide meaningful comments for different blocks of the code.
+    A README.TXT file must clearly state exactly how to execute the code and any necessary setups.
+
+Submission
+
+    Make sure to include your names in the report and the code.
+    The report must be submitted as a PDF separately (not to be included in the ZIP file).
+    Code and additional files related to implementation must be archived using ZIP.
+
