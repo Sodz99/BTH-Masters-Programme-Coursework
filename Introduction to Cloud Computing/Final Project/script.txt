@@ -1,0 +1,22 @@
+
+
+Slide 4
+Our project leverages a robust technology stack that includes AWS Lambda for serverless computing, S3 for efficient storage, API Gateway to manage HTTP requests, OpenCV for image processing, CloudWatch for real-time monitoring, and Postman for testing and simulating requests. This combination allowed us to create a seamless and scalable pipeline for image processing. 
+
+
+Slide 5
+To integrate OpenCV with AWS Lambda, we followed a structured process that ensured compatibility with the Lambda runtime, including verifying the Python version, installing dependencies via pip3, preparing the required directory structure, and packaging OpenCV as a .zip file. This package was uploaded to S3 and configured as a Lambda Layer, enabling reusability across multiple functions. 
+
+
+Slide 6
+The Lambda function itself reads images, converts them to grayscale using OpenCV, and stores the processed outputs in an S3 bucket. Initially, we used S3 PUT events to trigger the function but faced limitations in scalability testing and request volume control. 
+
+
+
+Slide 7
+To overcome these challenges, we transitioned to API Gateway as the trigger, allowing HTTP-based image uploads via base64 encoding, which enabled more effective scalability tests, controlled concurrent requests, and simplified performance evaluation. 
+
+
+
+Slide 8
+Using Postman, we conducted performance testing under varying loads, ranging from 1 to 100 concurrent requests, while monitoring key metrics in CloudWatch, such as Concurrent Invocations and Execution Duration. This testing demonstrated AWS Lambda's ability to dynamically scale up and down based on demand, efficiently provisioning resources to handle traffic spikes. These results highlight the power of serverless computing for dynamic, scalable, and cost-effective cloud-based image processing.

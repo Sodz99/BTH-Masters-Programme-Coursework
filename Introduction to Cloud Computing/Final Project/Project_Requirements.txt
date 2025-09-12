@@ -1,0 +1,1 @@
+To deploy an image processing application on AWS lambda and show the deployment scale by analyzing the appropriate performance metrics collected with CloudWatch. Examples of Image processing applications is: resizing an image, converting an image from color to BW/greyscale, recognizing an object in an image, and so on.
