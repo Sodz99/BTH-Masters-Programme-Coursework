@@ -19,7 +19,7 @@ A classic Snake game implementation written in x86-64 assembly language as part 
 
 This project is a fully functional Snake game implemented primarily in x86-64 assembly language. The game features a configurable snake length and apple count, collision detection, boundary checking, and enhanced gameplay mechanics including speed increases and timer-based challenges.
 
-The implementation demonstrates low-level programming concepts, assembly language proficiency, and integration between C and assembly code using the System V AMD64 ABI calling convention.
+The implementation demonstrates low-level programming concepts, assembly language proficiency, and seamless integration between C and assembly code with external function calls.
 
 ## ✨ Features
 
@@ -199,7 +199,7 @@ Assignment 3/
 
 ### Technical Specifications
 - **Assembly Standard**: x86-64 GNU Assembler syntax
-- **Calling Convention**: System V AMD64 ABI
+- **Calling Convention**: 64-bit register-based parameter passing
 - **Graphics Library**: ncurses for terminal-based rendering
 - **Build System**: GNU Make with automatic dependency tracking and organized structure
 - **Optimization**: Hand-optimized assembly routines for core game logic
